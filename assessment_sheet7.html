@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BEACON - Personnel and Labour Productivity</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">BEACON</h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">85/1 Moo.3 Bangkayang,Pathumthani, TH</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">plainc.official@gmail.com</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fas fa-user-lock"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">BEACON</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Assessment</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="booking.html" class="dropdown-item">Booking</a>
+                            <a href="team.html" class="dropdown-item">Technicians</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 py-5">
+        <div class="container">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Plant Assessment</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Personnel and Labour Productivity</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid px-4">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">7: Personnel</h6>
+                <h1 class="mb-5">BEACON</h1>
+            </div>
+
+            <!-- Personnel Form Start -->
+            <div class="bg-light rounded p-4 p-sm-5">
+                <div class="mb-4">
+                    <h3 class="mb-3 text-primary">PERSONNEL AND LABOUR PRODUCTIVITY</h3>
+                    <p class="text-muted">Labour productivity by function is the part of this benchmark that nobody else sells. Split hours and cost across the five functions below; the totals must reconcile with OPS-032 and FIN-019.</p>
+                </div>
+
+                <form action="submit_personnel.php" method="POST">
+                    
+                    <!-- Part 1: Hours, headcount and cost by function Grid Table -->
+                    <h4 class="text-secondary mb-3 mt-4">Hours, headcount and cost by function - 12-month period</h4>
+                    
+                    <div class="table-responsive mb-5">
+                        <table class="table table-bordered table-striped align-middle bg-white text-center" style="font-size: 0.85rem;">
+                            <thead class="table-primary text-dark">
+                                <tr>
+                                    <th style="width: 8%;">ID</th>
+                                    <th style="width: 5%;">Tier</th>
+                                    <th style="width: 32%;" class="text-start">Function</th>
+                                    <th style="width: 11%;">In-house FTE</th>
+                                    <th style="width: 11%;">In-house hours</th>
+                                    <th style="width: 11%;">Contractor hours</th>
+                                    <th style="width: 11%;">Overtime hours</th>
+                                    <th style="width: 11%;">Annual cost (LCU)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                $functions = [
+                                    ['id' => 'PER-001', 'tier' => 'T1', 'name' => '1. Operations - shift teams and control room', 'ex_fte' => '18', 'ex_ih' => '33500', 'ex_ch' => '1200', 'ex_oh' => '2400', 'ex_cost' => '5900000'],
+                                    ['id' => 'PER-002', 'tier' => 'T1', 'name' => '2. Fuel handling and yard - reception, measurement, milling, conveying', 'ex_fte' => '8', 'ex_ih' => '15000', 'ex_ch' => '3500', 'ex_oh' => '800', 'ex_cost' => '2400000'],
+                                    ['id' => 'PER-003', 'tier' => 'T1', 'name' => '3. Maintenance and overhaul - routine plus turnaround', 'ex_fte' => '10', 'ex_ih' => '18500', 'ex_ch' => '12500', 'ex_oh' => '1200', 'ex_cost' => '3200000'],
+                                    ['id' => 'PER-004', 'tier' => 'T1', 'name' => '4. Environmental and ash handling - ash, chemicals, emissions systems', 'ex_fte' => '4', 'ex_ih' => '7400', 'ex_ch' => '800', 'ex_oh' => '300', 'ex_cost' => '1100000'],
+                                    ['id' => 'PER-005', 'tier' => 'T1', 'name' => '5. Engineering, SHE and administration', 'ex_fte' => '6', 'ex_ih' => '11100', 'ex_ch' => '500', 'ex_oh' => '100', 'ex_cost' => '2000000']
+                                ];
+
+                                foreach ($functions as $f) {
+                                    echo "<tr>";
+                                    echo "<td class='fw-bold bg-light'>{$f['id']}</td>";
+                                    echo "<td><span class='badge bg-secondary'>{$f['tier']}</span></td>";
+                                    echo "<td class='text-start fw-semibold'>{$f['name']}</td>";
+                                    echo "<td><input type='number' step='0.1' class='form-control form-control-sm text-center' name='personnel[{$f['id']}][fte]' placeholder='{$f['ex_fte']}'></td>";
+                                    echo "<td><input type='number' class='form-control form-control-sm text-center' name='personnel[{$f['id']}][inhouse_hours]' placeholder='{$f['ex_ih']}'></td>";
+                                    echo "<td><input type='number' class='form-control form-control-sm text-center' name='personnel[{$f['id']}][contractor_hours]' placeholder='{$f['ex_ch']}'></td>";
+                                    echo "<td><input type='number' class='form-control form-control-sm text-center' name='personnel[{$f['id']}][overtime_hours]' placeholder='{$f['ex_oh']}'></td>";
+                                    echo "<td><input type='number' step='0.01' class='form-control form-control-sm text-center' name='personnel[{$f['id']}][cost]' placeholder='{$f['ex_cost']}'></td>";
+                                    echo "</tr>";
+                                }
+                                ?>
+                                <!-- PER-006 Total Row -->
+                                <tr class="table-warning fw-bold">
+                                    <td class="fw-bold bg-light">PER-006</td>
+                                    <td><span class="badge bg-dark">TOTAL</span></td>
+                                    <td class="text-start">TOTAL (Must reconcile with OPS-032 and FIN-019)</td>
+                                    <td><input type="text" class="form-control form-control-sm text-center fw-bold bg-transparent border-0" readonly placeholder="Auto"></td>
+                                    <td><input type="text" class="form-control form-control-sm text-center fw-bold bg-transparent border-0" readonly placeholder="Auto"></td>
+                                    <td><input type="text" class="form-control form-control-sm text-center fw-bold bg-transparent border-0" readonly placeholder="Auto"></td>
+                                    <td><input type="text" class="form-control form-control-sm text-center fw-bold bg-transparent border-0" readonly placeholder="Auto"></td>
+                                    <td><input type="text" class="form-control form-control-sm text-center fw-bold bg-transparent border-0" readonly placeholder="Auto"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <!-- Part 2: Organisation Form -->
+                    <h4 class="text-secondary mb-4 mt-5 border-bottom pb-2">Organisation</h4>
+
+                    <?php
+                    $provenance_options = ['Measured', 'Calculated', 'Estimated', 'Not available'];
+
+                    $org_fields = [
+                        ['id' => 'PER-010', 'tier' => 'T1', 'label' => 'Total site headcount, in-house', 'unit' => 'count', 'type' => 'number', 'ex' => '46'],
+                        ['id' => 'PER-011', 'tier' => 'T1', 'label' => 'Shift pattern', 'unit' => 'text', 'type' => 'text', 'ex' => '4 shifts, 12-hour rotation'],
+                        ['id' => 'PER-012', 'tier' => 'T1', 'label' => 'Control room operators per shift', 'unit' => 'count', 'type' => 'number', 'ex' => '2', 'note' => 'Together with control system at SCR-016 shows automation payback.'],
+                        ['id' => 'PER-013', 'tier' => 'T2', 'label' => 'Average fully-loaded annual cost per in-house FTE', 'unit' => 'LCU / FTE / year', 'type' => 'number', 'step' => '0.01', 'ex' => '274000', 'note' => 'Used to restate labour metric onto common wage base.'],
+                        ['id' => 'PER-014', 'tier' => 'T2', 'label' => 'Training hours per FTE per year', 'unit' => 'hours', 'type' => 'number', 'ex' => '24'],
+                        ['id' => 'PER-015', 'tier' => 'T3', 'label' => 'Voluntary turnover in the period', 'unit' => '%', 'type' => 'number', 'step' => '0.01', 'ex' => '8'],
+                        ['id' => 'PER-016', 'tier' => 'T2', 'label' => 'Vacant positions at period end', 'unit' => 'count', 'type' => 'number', 'ex' => '2']
+                    ];
+
+                    foreach ($org_fields as $f) {
+                        echo '<div class="row mb-3 align-items-center">';
+                        echo '<label class="col-lg-5 col-form-label fw-bold">';
+                        echo "{$f['id']}: {$f['label']} ({$f['unit']})";
+                        if (isset($f['note'])) echo "<div class='form-text text-muted fw-normal'>{$f['note']}</div>";
+                        echo '</label>';
+                        echo '<div class="col-lg-4">';
+                        $inputType = isset($f['type']) ? $f['type'] : 'number';
+                        $stepAttr = isset($f['step']) ? "step='{$f['step']}'" : "";
+                        echo "<input type='{$inputType}' {$stepAttr} class='form-control' name='{$f['id']}' placeholder='e.g. {$f['ex']}'>";
+                        echo '</div>';
+                        echo '<div class="col-lg-3 mt-2 mt-lg-0">';
+                        echo "<select class='form-select' name='{$f['id']}_provenance'>";
+                        echo "<option value=''>-- Provenance --</option>";
+                        foreach ($provenance_options as $prov) { echo "<option value='{$prov}'>{$prov}</option>"; }
+                        echo "</select></div></div>";
+                    }
+                    ?>
+
+                    <!-- Notes Section from Excel -->
+                    <div class="mt-4 p-3 bg-white border rounded">
+                        <h6 class="text-secondary mb-2" style="font-size: 0.9rem;"><i class="fas fa-info-circle me-2"></i>Guidelines & Reconciliation:</h6>
+                        <ul class="text-muted mb-0" style="font-size: 0.78rem; line-height: 1.6;">
+                            <li><strong>Reconciliation 1:</strong> Total hours worked across functions must reconcile with total man-hours worked on sheet '3 Monthly Data' (OPS-032).</li>
+                            <li><strong>Reconciliation 2:</strong> Total annual personnel cost must reconcile with personnel cost on sheet '5 Financial' (FIN-019).</li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <button type="button" class="btn btn-secondary py-3 px-5 me-3" onclick="history.back()">Back</button>
+                        <button type="button" class="btn btn-secondary py-3 px-5 me-3">Save Draft</button>
+                        <button type="submit" formaction="assessment_summary.php" class="btn btn-primary py-3 px-5">Submit Assessment</button>
+                    </div>
+
+                </form>
+            </div>
+            <!-- Personnel Form End -->
+            
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>85/1 Moo.3, Bangkayang, Muang, Pathumthani, Thailand</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+66 85 519 1959</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>plainc.official@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">09.00 AM - 09.00 PM</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Data Praparation</a>
+                    <a class="btn btn-link" href="">Plant Assessment</a>
+                    <a class="btn btn-link" href="">Efficiency Improvement</a>
+                    <a class="btn btn-link" href="">Cost Analysis</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">beacon</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">PLAI Inc.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

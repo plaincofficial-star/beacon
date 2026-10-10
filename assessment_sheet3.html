@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BEACON - Monthly Operating Data</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">BEACON</h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">85/1 Moo.3 Bangkayang,Pathumthani, TH</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">plainc.official@gmail.com</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fas fa-user-lock"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">BEACON</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Assessment</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="booking.html" class="dropdown-item">Booking</a>
+                            <a href="team.html" class="dropdown-item">Technicians</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 py-5">
+        <div class="container">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Plant Assessment</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Monthly Data</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid px-4">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">3: Monthly Data</h6>
+                <h1 class="mb-5">BEACON</h1>
+            </div>
+
+            <!-- Monthly Data Grid Form Start -->
+            <div class="bg-light rounded p-4 p-sm-5">
+                <div class="mb-4">
+                    <h3 class="mb-3 text-primary">MONTHLY OPERATING DATA - 12 consecutive months</h3>
+                    <p class="text-muted">The core of the submission. These are raw counters from your monthly reports; we compute heat rate, capacity factor, EAF, forced outage rate and MTBF from them on a single published definition. Do not enter an annual average - the month-to-month pattern is the diagnostic[cite: 6].</p>
+                </div>
+
+                <form action="submit_monthly_data.php" method="POST">
+                    
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle bg-white text-center" style="font-size: 0.85rem; min-width: 1800px;">
+                            <thead class="table-primary text-dark">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Tier</th>
+                                    <th>Counter / Field</th>
+                                    <th>Unit</th>
+                                    <th>M1</th>
+                                    <th>M2</th>
+                                    <th>M3</th>
+                                    <th>M4</th>
+                                    <th>M5</th>
+                                    <th>M6</th>
+                                    <th>M7</th>
+                                    <th>M8</th>
+                                    <th>M9</th>
+                                    <th>M10</th>
+                                    <th>M11</th>
+                                    <th>M12</th>
+                                    <th>Provenance</th>
+                                    <th>Note / Definition</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                $sections = [
+                                    [
+                                        'title' => 'Availability and output',
+                                        'rows' => [
+                                            ['id' => 'MONTH', 'tier' => '->', 'name' => 'Month and year', 'unit' => '->', 'ex' => 'Jan-2025', 'note' => 'Month and year of reporting period[cite: 6]'],
+                                            ['id' => 'OPS-001', 'tier' => 'T1', 'name' => 'Calendar hours in the month (period hours)', 'unit' => 'hours', 'ex' => '744', 'note' => '24 x days in month. 744 for a 31-day month[cite: 6].'],
+                                            ['id' => 'OPS-002', 'tier' => 'T1', 'name' => 'Operating hours (boiler in service)', 'unit' => 'hours', 'ex' => '661', 'note' => 'Hours the unit was synchronised or the boiler was firing. Excludes all outage hours[cite: 6].'],
+                                            ['id' => 'OPS-003', 'tier' => 'T1', 'name' => 'Gross electrical generation', 'unit' => 'MWh', 'ex' => '5600', 'note' => 'At generator terminals, before auxiliary consumption[cite: 6].'],
+                                            ['id' => 'OPS-004', 'tier' => 'T1', 'name' => 'Net electricity exported to grid', 'unit' => 'MWh', 'ex' => '4880', 'note' => 'Revenue meter reading. Denominator of every per-MWh metric we report[cite: 6].'],
+                                            ['id' => 'OPS-005', 'tier' => 'T1', 'name' => 'Electricity imported from grid', 'unit' => 'MWh', 'ex' => '65', 'note' => 'Consumption during outages and start-up. Often forgotten; it changes the auxiliary ratio materially[cite: 6].'],
+                                            ['id' => 'OPS-006', 'tier' => 'T1', 'name' => 'Auxiliary / internal electricity consumption', 'unit' => 'MWh', 'ex' => '785', 'note' => 'Gross generation minus net export plus import. Enter the metered value if you have one[cite: 6].'],
+                                            ['id' => 'OPS-007', 'tier' => 'T1', 'name' => 'Heat / steam exported to third parties', 'unit' => 'MWh-th', 'ex' => '0', 'note' => 'Enter 0 if power only. Without this a CHP plant is benchmarked unfairly on electrical heat rate[cite: 6].'],
+                                            ['id' => 'OPS-008', 'tier' => 'T1', 'name' => 'Planned outage hours', 'unit' => 'hours', 'ex' => '0', 'note' => 'Scheduled maintenance and statutory inspection[cite: 6].'],
+                                            ['id' => 'OPS-009', 'tier' => 'T1', 'name' => 'Forced outage hours', 'unit' => 'hours', 'ex' => '83', 'note' => 'Unplanned full stops. Must reconcile with the total on sheet \'4 Outages\'[cite: 6].'],
+                                            ['id' => 'OPS-010', 'tier' => 'T2', 'name' => 'Equivalent derated hours', 'unit' => 'hours', 'ex' => '12', 'note' => 'Hours of partial load loss expressed as equivalent full-outage hours: (lost MW x hours) / net MW capacity[cite: 6].'],
+                                            ['id' => 'OPS-011', 'tier' => 'T2', 'name' => 'Number of unit starts', 'unit' => 'count', 'ex' => '1', 'note' => 'Number of start-ups from cold or warm state.'],
+                                            ['id' => 'OPS-012', 'tier' => 'T1', 'name' => 'Number of forced outage events (trips)', 'unit' => 'count', 'ex' => '2', 'note' => 'Total trip events during the month.']
+                                        ]
+                                    ],
+                                    [
+                                        'title' => 'Fuel consumed - as-received tonnes, by slot from sheet 2A',
+                                        'rows' => [
+                                            ['id' => 'OPS-013', 'tier' => 'T1', 'name' => 'Fuel F01', 'unit' => 't AR', 'ex' => '3200', 'note' => 'Consumed quantity for slot F01'],
+                                            ['id' => 'OPS-014', 'tier' => 'T1', 'name' => 'Fuel F02', 'unit' => 't AR', 'ex' => '0', 'note' => 'Consumed quantity for slot F02'],
+                                            ['id' => 'OPS-015', 'tier' => 'T1', 'name' => 'Fuel F03', 'unit' => 't AR', 'ex' => '0', 'note' => 'Consumed quantity for slot F03'],
+                                            ['id' => 'OPS-016', 'tier' => 'T1', 'name' => 'Fuel F04', 'unit' => 't AR', 'ex' => '0', 'note' => 'Consumed quantity for slot F04'],
+                                            ['id' => 'OPS-017', 'tier' => 'T2', 'name' => 'Fuel F05', 'unit' => 't AR', 'ex' => '0', 'note' => 'Consumed quantity for slot F05'],
+                                            ['id' => 'OPS-018', 'tier' => 'T2', 'name' => 'Fuel F06', 'unit' => 't AR', 'ex' => '0', 'note' => 'Consumed quantity for slot F06'],
+                                            ['id' => 'OPS-019', 'tier' => 'T2', 'name' => 'Fuel F07', 'unit' => 't AR', 'ex' => '0', 'note' => 'Consumed quantity for slot F07'],
+                                            ['id' => 'OPS-020', 'tier' => 'T2', 'name' => 'Fuel F08', 'unit' => 't AR', 'ex' => '0', 'note' => 'Consumed quantity for slot F08'],
+                                            ['id' => 'OPS-021', 'tier' => '', 'name' => 'Total fuel consumed (all slots)', 'unit' => 't AR', 'ex' => '3200', 'note' => 'Sum of all fuel slots.'],
+                                            ['id' => 'OPS-022', 'tier' => 'T1', 'name' => 'Weighted average as-received moisture', 'unit' => '%', 'ex' => '11.5', 'note' => 'Moisture AR weighted by energy or mass.'],
+                                            ['id' => 'OPS-023', 'tier' => 'T1', 'name' => 'Weighted average as-received LHV', 'unit' => 'MJ/kg', 'ex' => '13.2', 'note' => 'LHV AR weighted by mass or energy.'],
+                                            ['id' => 'OPS-024', 'tier' => '', 'name' => 'Total fuel energy input', 'unit' => 'GJ', 'ex' => '42240', 'note' => 'Calculated total energy input.'],
+                                            ['id' => 'OPS-025', 'tier' => 'T2', 'name' => 'Support / start-up fuel energy (diesel, oil, gas)', 'unit' => 'GJ', 'ex' => '150', 'note' => 'Auxiliary fossil fuel energy used for start-up or stabilization.']
+                                        ]
+                                    ],
+                                    [
+                                        'title' => 'Ash, water and cost counters',
+                                        'rows' => [
+                                            ['id' => 'OPS-026', 'tier' => 'T1', 'name' => 'Bottom ash produced', 'unit' => 'tonnes', 'ex' => '120', 'note' => 'Measured bottom ash generated.'],
+                                            ['id' => 'OPS-027', 'tier' => 'T1', 'name' => 'Fly ash / APC residue produced', 'unit' => 'tonnes', 'ex' => '450', 'note' => 'Measured fly ash and air pollution control residues.'],
+                                            ['id' => 'OPS-028', 'tier' => 'T2', 'name' => 'Unburnt carbon (LOI) in bottom ash', 'unit' => '%', 'ex' => '3.5', 'note' => 'Loss on ignition in bottom ash.'],
+                                            ['id' => 'OPS-029', 'tier' => 'T2', 'name' => 'Raw water intake', 'unit' => 'm3', 'ex' => '12000', 'note' => 'Total raw water withdrawn for plant operation.'],
+                                            ['id' => 'OPS-030', 'tier' => 'T1', 'name' => 'Fuel cost incurred', 'unit' => 'LCU', 'ex' => '3840000', 'note' => 'Total delivered fuel cost in local currency.'],
+                                            ['id' => 'OPS-031', 'tier' => 'T2', 'name' => 'Non-fuel operating cost incurred', 'unit' => 'LCU', 'ex' => '950000', 'note' => 'O&M, consumables, labor, and other operational expenses.'],
+                                            ['id' => 'OPS-032', 'tier' => 'T2', 'name' => 'Total man-hours worked (in-house + contractor)', 'unit' => 'hours', 'ex' => '4500', 'note' => 'Safety and labor tracking metric.']
+                                        ]
+                                    ]
+                                ];
+
+                                $provenance_options = ['Measured', 'Calculated', 'Estimated', 'Not available'];
+
+                                foreach ($sections as $section) {
+                                    // Section Header Row
+                                    echo "<tr class='table-secondary fw-bold text-start'>";
+                                    echo "<td colspan='18' class='ps-3 text-dark'>{$section['title']}</td>";
+                                    echo "</tr>";
+
+                                    foreach ($section['rows'] as $row) {
+                                        echo "<tr>";
+                                        echo "<td class='fw-bold bg-light'>{$row['id']}</td>";
+                                        echo "<td><span class='badge bg-secondary'>{$row['tier']}</span></td>";
+                                        echo "<td class='text-start fw-semibold'>{$row['name']}</td>";
+                                        echo "<td class='text-muted'>{$row['unit']}</td>";
+
+                                        // M1 ถึง M12 inputs
+                                        for ($m = 1; $m <= 12; $m++) {
+                                            echo "<td><input type='text' class='form-control form-control-sm text-center' name='data[{$row['id']}][M{$m}]' placeholder='{$row['ex']}'></td>";
+                                        }
+
+                                        // Provenance dropdown
+                                        echo "<td><select class='form-select form-select-sm text-muted' name='data[{$row['id']}][provenance]'>";
+                                        echo "<option value='' disabled selected>Provenance</option>";
+                                        foreach ($provenance_options as $prov) {
+                                            echo "<option value='{$prov}'>{$prov}</option>";
+                                        }
+                                        echo "</select></td>";
+
+                                        echo "<td class='text-start text-muted small'>{$row['note']}</td>";
+                                        echo "</tr>";
+                                    }
+                                }
+                                ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Notes Section from Excel -->
+                    <div class="mt-4 p-3 bg-white border rounded">
+						<h6 class="text-secondary mb-2" style="font-size: 0.9rem;"><i class="fas fa-info-circle me-2"></i>Consistency Checks & Guidelines:</h6>
+						<ul class="text-muted mb-0" style="font-size: 0.78rem; line-height: 1.6;">
+							<li><strong>Consistency Check 1:</strong> OPS-002 + OPS-008 + OPS-009 must equal OPS-001 (Operating hours + Planned outage + Forced outage = Calendar hours).</li>
+							<li><strong>Consistency Check 2:</strong> OPS-006 must equal OPS-003 - OPS-004 + OPS-005 (Auxiliary consumption = Gross generation - Net export + Import).</li>
+							<li><strong>Consistency Check 3:</strong> OPS-009 and OPS-012 must reconcile with the totals on sheet '4 Outages'.</li>
+							<li><strong>Consistency Check 4:</strong> OPS-026 + OPS-027 divided by OPS-021 must sit near the ash content declared on sheet 2A. A submission that fails these is returned before it enters the peer set.</li>
+						</ul>
+					</div>
+
+                    <div class="text-center mt-5">
+                        <button type="button" class="btn btn-secondary py-3 px-5 me-3" onclick="history.back()">Back</button>
+                        <button type="button" class="btn btn-secondary py-3 px-5 me-3">Save Draft</button>
+                        <button type="submit" formaction="assessment_sheet4.php" class="btn btn-primary py-3 px-5">Next</button>
+                    </div>
+
+                </form>
+            </div>
+            <!-- Monthly Data Grid Form End -->
+            
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>85/1 Moo.3, Bangkayang, Muang, Pathumthani, Thailand</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+66 85 519 1959</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>plainc.official@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">09.00 AM - 09.00 PM</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Data Praparation</a>
+                    <a class="btn btn-link" href="">Plant Assessment</a>
+                    <a class="btn btn-link" href="">Efficiency Improvement</a>
+                    <a class="btn btn-link" href="">Cost Analysis</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">beacon</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">PLAI Inc.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

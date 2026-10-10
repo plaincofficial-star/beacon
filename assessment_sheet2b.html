@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BEACON - Fuel Supply Chain</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">BEACON</h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">85/1 Moo.3 Bangkayang,Pathumthani, TH</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">plainc.official@gmail.com</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fas fa-user-lock"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">BEACON</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Assessment</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="booking.html" class="dropdown-item">Booking</a>
+                            <a href="team.html" class="dropdown-item">Technicians</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 py-5">
+        <div class="container">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Plant Assessment</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Fuel Supply Chain</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">2B: Fuel Supply Chain</h6>
+                <h1 class="mb-5">BEACON</h1>
+            </div>
+
+            <!-- Fuel Supply Chain Form Start -->
+            <div class="bg-light rounded p-4 p-sm-5">
+                <div class="mb-4">
+                    <h3 class="mb-3 text-primary">FUEL SUPPLY CHAIN, MEASUREMENT PRACTICE AND RISK</h3>
+                    <p class="text-muted">These fields establish how trustworthy your fuel figures are, and how exposed the plant is to a single supplier[cite: 5].</p>
+                </div>
+
+                <form action="submit_fuel_supply_chain.php" method="POST">
+                    
+                    <!-- Section 1: Measurement practice -->
+                    <h4 class="text-secondary mb-4 mt-4 border-bottom pb-2">Measurement practice - determines confidence weighting on heat rate</h4>
+
+                    <!-- FUE-001 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">
+                            FUE-001: Is every fuel delivery weighed on a calibrated weighbridge?
+                            <div class="form-text text-muted fw-normal">If estimated by truck count, heat rate carries a large error band and we flag it[cite: 5].</div>
+                        </label>
+                        <div class="col-lg-4">
+                            <select class="form-select" name="FUE-001">
+                                <option value="">-- Answer --</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-001_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-002 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-002: Weighbridge calibration interval (months)</label>
+                        <div class="col-lg-4">
+                            <input type="number" class="form-control" name="FUE-002" placeholder="6">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-002_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-003 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-003: Moisture measurement method</label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="FUE-003" placeholder="Oven-dry lab sample, ASTM E871">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-003_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-004 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">
+                            FUE-004: Moisture measurement frequency
+                            <div class="form-text text-muted fw-normal">Per delivery, per day, per week or per consignment[cite: 5].</div>
+                        </label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="FUE-004" placeholder="One composite sample per delivery day">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-004_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-005 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">
+                            FUE-005: Is heating value measured or assumed?
+                            <div class="form-text text-muted fw-normal">If assumed, state the source. Single largest error source in heat rate[cite: 5].</div>
+                        </label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="FUE-005" placeholder="Bomb calorimeter, monthly composite per fuel">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-005_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-006 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-006: Full fuel analysis frequency (ash, Cl, S, alkali, fusion)</label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="FUE-006" placeholder="Quarterly, external lab">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-006_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-007 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">
+                            FUE-007: Fuel pre-treatment on site
+                            <div class="form-text text-muted fw-normal">Chipping, screening, drying, magnets, de-stoner, none[cite: 5].</div>
+                        </label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="FUE-007" placeholder="Screening, magnetic separation, hammer mill">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-007_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <!-- Section 2: Sourcing and supply risk -->
+                    <h4 class="text-secondary mb-4 mt-5 border-bottom pb-2">Sourcing and supply risk</h4>
+
+                    <!-- FUE-008 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-008: Total number of active fuel suppliers</label>
+                        <div class="col-lg-4">
+                            <input type="number" class="form-control" name="FUE-008" placeholder="14">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-008_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-009 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">
+                            FUE-009: Share of fuel volume from the single largest supplier (%)
+                            <div class="form-text text-muted fw-normal">Concentration is the main supply-side risk indicator[cite: 5].</div>
+                        </label>
+                        <div class="col-lg-4">
+                            <input type="number" step="0.01" class="form-control" name="FUE-009" placeholder="38">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-009_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-010 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">
+                            FUE-010: Share of annual volume under written contract (%)
+                            <div class="form-text text-muted fw-normal">Balance is spot. Contract cover explains fuel-cost stability[cite: 5].</div>
+                        </label>
+                        <div class="col-lg-4">
+                            <input type="number" step="0.01" class="form-control" name="FUE-010" placeholder="70">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-010_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-011 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-011: Typical contract tenor (months)</label>
+                        <div class="col-lg-4">
+                            <input type="number" class="form-control" name="FUE-011" placeholder="12">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-011_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-012 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-012: Fuel stockpile capacity at MCR (days)</label>
+                        <div class="col-lg-4">
+                            <input type="number" step="0.01" class="form-control" name="FUE-012" placeholder="14">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-012_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-013 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-013: Minimum stockpile held during the period (days)</label>
+                        <div class="col-lg-4">
+                            <input type="number" step="0.01" class="form-control" name="FUE-013" placeholder="4">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-013_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-014 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-014: Longest fuel supply interruption in the last 24 months (days)</label>
+                        <div class="col-lg-4">
+                            <input type="number" class="form-control" name="FUE-014" placeholder="3">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-014_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-015 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">
+                            FUE-015: Forced outages in the period caused by fuel unavailability or quality
+                            <div class="form-text text-muted fw-normal">Must reconcile with fuel-related rows on sheet '4 Outages'[cite: 5].</div>
+                        </label>
+                        <div class="col-lg-4">
+                            <input type="number" class="form-control" name="FUE-015" placeholder="2">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-015_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-016 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-016: Deliveries rejected on quality in the period (% of deliveries)</label>
+                        <div class="col-lg-4">
+                            <input type="number" step="0.01" class="form-control" name="FUE-016" placeholder="1.5">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-016_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-017 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-017: Seasonal fuel price swing, peak to trough (%)</label>
+                        <div class="col-lg-4">
+                            <input type="number" step="0.01" class="form-control" name="FUE-017" placeholder="25">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-017_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-018 -->
+                    <div class="row mb-3 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-018: Fuel reception mode</label>
+                        <div class="col-lg-4">
+                            <input type="text" class="form-control" name="FUE-018" placeholder="Road truck, 20 t tipper">
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-018_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- FUE-019 -->
+                    <div class="row mb-4 align-items-center">
+                        <label class="col-lg-5 col-form-label fw-bold">FUE-019: Is there a fuel price indexation clause in your contracts?</label>
+                        <div class="col-lg-4">
+                            <select class="form-select" name="FUE-019">
+                                <option value="">-- Answer --</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 mt-2 mt-lg-0">
+                            <select class="form-select" name="FUE-019_provenance">
+                                <option value="">-- Provenance --</option>
+                                <option value="Measured">Measured</option>
+                                <option value="Calculated">Calculated</option>
+                                <option value="Estimated">Estimated</option>
+                                <option value="Not available">Not available</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <button type="button" class="btn btn-secondary py-3 px-5 me-3" onclick="history.back()">Back</button>
+                        <button type="button" class="btn btn-secondary py-3 px-5 me-3">Save Draft</button>
+                        <button type="submit" formaction="assessment_sheet3.php" class="btn btn-primary py-3 px-5">Next</button>
+                    </div>
+
+                </form>
+            </div>
+            <!-- Fuel Supply Chain Form End -->
+            
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>85/1 Moo.3, Bangkayang, Muang, Pathumthani, Thailand</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+66 85 519 1959</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>plainc.official@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">09.00 AM - 09.00 PM</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Data Praparation</a>
+                    <a class="btn btn-link" href="">Plant Assessment</a>
+                    <a class="btn btn-link" href="">Efficiency Improvement</a>
+                    <a class="btn btn-link" href="">Cost Analysis</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">beacon</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">PLAI Inc.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
