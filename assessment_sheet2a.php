@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BEACON - Fuel Properties</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">BEACON</h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">85/1 Moo.3 Bangkayang,Pathumthani, TH</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0">plainc.official@gmail.com</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fas fa-user-lock"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">BEACON</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Assessment</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="booking.html" class="dropdown-item">Booking</a>
+                            <a href="team.html" class="dropdown-item">Technicians</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="404.html" class="dropdown-item">404 Page</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
+                        <i class="fa fa-phone-alt text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 py-5">
+        <div class="container">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Plant Assessment</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Fuel Properties</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-fluid px-4">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">2A: Fuel Properties</h6>
+                <h1 class="mb-5">BEACON</h1>
+            </div>
+
+            <!-- Fuel Properties Grid Form Start -->
+            <div class="bg-light rounded p-4 p-sm-5">
+                <div class="mb-4">
+                    <h3 class="mb-3 text-primary">FUEL PROPERTIES - one row per fuel actually fired</h3>
+                    <p class="text-muted">Fuel chemistry is where slagging, tube corrosion and refractory cost originate. Complete a row for every fuel that exceeded 2% of energy input in the period[cite: 4].</p>
+                </div>
+
+                <form action="submit_fuel_properties.php" method="POST">
+                    
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle bg-white text-center" style="font-size: 0.85rem; min-width: 2200px;">
+                            <thead class="table-primary text-dark">
+                                <tr>
+                                    <th>Slot</th>
+                                    <th>Fuel type</th>
+                                    <th>Annual qty<br>(t/yr AR)</th>
+                                    <th>% of fuel<br>energy</th>
+                                    <th>Moisture AR<br>(%)</th>
+                                    <th>LHV AR<br>(MJ/kg)</th>
+                                    <th>HHV dry<br>(MJ/kg)</th>
+                                    <th>Ash<br>(% dry)</th>
+                                    <th>Cl<br>(% dry)</th>
+                                    <th>S<br>(% dry)</th>
+                                    <th>K2O<br>(% of ash)</th>
+                                    <th>Na2O<br>(% of ash)</th>
+                                    <th>SiO2<br>(% of ash)</th>
+                                    <th>Ash fusion IDT<br>(deg C)</th>
+                                    <th>Ash fusion ST<br>(deg C)</th>
+                                    <th>Ash fusion HT<br>(deg C)</th>
+                                    <th>Delivered cost<br>(LCU/t)</th>
+                                    <th>Procurement radius<br>(km)</th>
+                                    <th>No. of<br>suppliers</th>
+                                    <th>Largest supplier share<br>(%)</th>
+                                    <th>Contracted<br>(% of volume)</th>
+                                    <th>Contract tenor<br>(months)</th>
+                                    <th>Stockpile<br>(days at MCR)</th>
+                                    <th>Seasonal price range<br>(%)</th>
+                                    <th>Provenance</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                $slots = ['F01', 'F02', 'F03', 'F04', 'F05', 'F06', 'F07', 'F08', 'F09', 'F10'];
+                                
+                                $examples = [
+                                    'fuel_type' => 'Rice husk',
+                                    'annual_qty' => '38500',
+                                    'fuel_energy_pct' => '62',
+                                    'moisture_ar' => '11.5',
+                                    'lhv_ar' => '13.2',
+                                    'hhv_dry' => '15.6',
+                                    'ash_dry' => '18.5',
+                                    'cl_dry' => '0.09',
+                                    's_dry' => '0.08',
+                                    'k2o_ash' => '8.2',
+                                    'na2o_ash' => '1.1',
+                                    'sio2_ash' => '92',
+                                    'idt_degc' => '1480',
+                                    'st_degc' => '1520',
+                                    'ht_degc' => '1580',
+                                    'delivered_cost' => '1200',
+                                    'procurement_radius' => '45',
+                                    'no_of_suppliers' => '6',
+                                    'largest_supplier_share' => '38',
+                                    'contracted_vol_pct' => '70',
+                                    'contract_tenor' => '12',
+                                    'stockpile_days' => '14',
+                                    'seasonal_price_range' => '25',
+                                    'provenance' => 'Measured'
+                                ];
+
+                                $fuel_options = [
+                                    'Rice husk', 'Rice straw', 'Palm kernel shell', 
+                                    'Palm empty fruit bunch', 'Wood chip', 
+                                    'Sawdust / wood residue', 'Bark', 'Bagasse'
+                                ];
+                                $provenance_options = ['Measured', 'Calculated', 'Estimated', 'Not available'];
+
+                                foreach ($slots as $slot) {
+                                    echo "<tr>";
+                                    echo "<td class='fw-bold bg-light'>{$slot}</td>";
+                                    
+                                    echo "<td><select class='form-select form-select-sm text-muted' name='fuels[{$slot}][fuel_type]'>";
+                                    echo "<option value='' disabled selected>e.g. {$examples['fuel_type']}</option>";
+                                    foreach ($fuel_options as $opt) {
+                                        echo "<option value='{$opt}'>{$opt}</option>";
+                                    }
+                                    echo "</select></td>";
+
+                                    $number_fields = [
+                                        'annual_qty', 'fuel_energy_pct', 'moisture_ar', 'lhv_ar', 'hhv_dry',
+                                        'ash_dry', 'cl_dry', 's_dry', 'k2o_ash', 'na2o_ash', 'sio2_ash',
+                                        'idt_degc', 'st_degc', 'ht_degc', 'delivered_cost', 'procurement_radius',
+                                        'no_of_suppliers', 'largest_supplier_share', 'contracted_vol_pct',
+                                        'contract_tenor', 'stockpile_days', 'seasonal_price_range'
+                                    ];
+
+                                    foreach ($number_fields as $field) {
+                                        $step = (in_array($field, ['cl_dry', 's_dry'])) ? '0.001' : '0.01';
+                                        $val_ex = $examples[$field];
+                                        echo "<td><input type='number' step='{$step}' class='form-control form-control-sm' name='fuels[{$slot}][{$field}]' placeholder='{$val_ex}'></td>";
+                                    }
+
+                                    echo "<td><select class='form-select form-select-sm text-muted' name='fuels[{$slot}][provenance]'>";
+                                    echo "<option value='' disabled selected>e.g. {$examples['provenance']}</option>";
+                                    foreach ($provenance_options as $prov) {
+                                        echo "<option value='{$prov}'>{$prov}</option>";
+                                    }
+                                    echo "</select></td>";
+
+                                    echo "</tr>";
+                                }
+                                ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Notes Section from Excel -->
+                    <div class="mt-4 p-3 bg-white border rounded">
+                        <h5 class="text-secondary mb-3"><i class="fas fa-info-circle me-2"></i>Notes & Guidelines:</h5>
+                        <ul class="text-muted small mb-0" style="line-height: 1.8;">
+                            <li><strong>AR = as received (as fired)</strong>, not dry basis. LHV as-received is the value that drives heat rate; if you hold only HHV dry, enter it in column G and leave F blank - we will convert using your moisture and hydrogen.</li>
+                            <li><strong>Ash fusion temperatures (IDT / ST / HT)</strong> and the alkali columns (K2O, Na2O, Cl) are what separate a plant with a slagging problem from one without. If you have a recent fuel analysis certificate, these are on it.</li>
+                            <li><strong>SiO2 as % of ash</strong> is required if ash valorisation (cement substitution, silica extraction) is in scope.</li>
+                            <li><strong>LCU = your local currency unit</strong>, as declared at FIN-001. Delivered cost includes haulage to the plant gate.</li>
+                            <li><strong>Slot IDs F01-F10</strong> are stable: the same slot must be used for the same fuel on sheet '3 Monthly Data'.</li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <button type="button" class="btn btn-secondary py-3 px-5 me-3" onclick="history.back()">Back</button>
+                        <button type="button" class="btn btn-secondary py-3 px-5 me-3">Save Draft</button>
+                        <button type="submit" formaction="assessment_sheet2b.php" class="btn btn-primary py-3 px-5">Next</button>
+                    </div>
+
+                </form>
+            </div>
+            <!-- Fuel Properties Grid Form End -->
+            
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>85/1 Moo.3, Bangkayang, Muang, Pathumthani, Thailand</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+66 85 519 1959</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>plainc.official@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">09.00 AM - 09.00 PM</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Data Praparation</a>
+                    <a class="btn btn-link" href="">Plant Assessment</a>
+                    <a class="btn btn-link" href="">Efficiency Improvement</a>
+                    <a class="btn btn-link" href="">Cost Analysis</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">beacon</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">PLAI Inc.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
