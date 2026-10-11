@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Plumberz - Free Plumbing Website Template</title>
+    <title>BEACON - About Us & Performance Benchmark</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -30,6 +30,17 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Hover Effect for Button -->
+    <style>
+        .transition-hover {
+            transition: all 0.3s ease-in-out;
+        }
+        .transition-hover:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 .5rem 1rem rgba(13, 110, 253, 0.3) !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -41,41 +52,38 @@
     </div>
     <!-- Spinner End -->
 
-
     <!-- Topbar Start -->
     <div class="container-fluid bg-light d-none d-lg-block">
         <div class="row align-items-center top-bar">
             <div class="col-lg-3 col-md-12 text-center text-lg-start">
                 <a href="" class="navbar-brand m-0 p-0">
-                    <h1 class="text-primary m-0">Plumberz</h1>
+                    <h1 class="text-primary m-0">BEACON</h1>
                 </a>
             </div>
             <div class="col-lg-9 col-md-12 text-end">
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <i class="fa fa-map-marker-alt text-primary me-2"></i>
-                    <p class="m-0">123 Street, New York, USA</p>
+                    <p class="m-0">85/1 Moo.3 Bangkayang, Pathumthani, TH</p>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <i class="far fa-envelope-open text-primary me-2"></i>
-                    <p class="m-0">info@example.com</p>
+                    <p class="m-0">plainc.official@gmail.com</p>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fas fa-user-lock"></i></a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
     <div class="container-fluid nav-bar bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
             <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
-                <h1 class="text-primary m-0">Plumberz</h1>
+                <h1 class="text-primary m-0">BEACON</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -84,25 +92,13 @@
                 <div class="navbar-nav me-auto">
                     <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="assessment_sheet0.html" class="nav-item nav-link">Assessment</a>
                     <a href="service.html" class="nav-item nav-link">Services</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu fade-up m-0">
-                            <a href="booking.html" class="dropdown-item">Booking</a>
-                            <a href="team.html" class="dropdown-item">Technicians</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
-                        </div>
-                    </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
                         <i class="fa fa-phone-alt text-primary"></i>
-                    </div>
-                    <div class="ms-3">
-                        <p class="mb-1 text-white">Emergency 24/7</p>
-                        <h5 class="m-0 text-secondary">+012 345 6789</h5>
                     </div>
                 </div>
             </div>
@@ -110,14 +106,13 @@
     </div>
     <!-- Navbar End -->
 
-
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 py-5">
         <div class="container">
             <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb text-uppercase">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
                     <li class="breadcrumb-item text-white active" aria-current="page">About</li>
                 </ol>
@@ -126,69 +121,22 @@
     </div>
     <!-- Page Header End -->
 
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid w-100 h-100" src="img/service-1.jpg" alt="">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Residential Plumbing</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid w-100 h-100" src="img/service-2.jpg" alt="">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Commercial Plumbing</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid w-100 h-100" src="img/service-3.jpg" alt="">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Emergency Servicing</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-
-
-    <!-- About Start -->
+    <!-- About Start (Includes Original Images) -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase">About Us</h6>
-                    <h1 class="mb-4">We Are Trusted Plumbing Company Since 1990</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Residential & commercial plumbing</p>
+                    <h1 class="mb-4">We Are experts in biomass power plant efficiency improvement</h1>
+                    <p class="mb-4">We are an experienced team specializing in the development, optimization, and construction of biomass and waste-to-energy power plants, backed by our proprietary monitoring tools.</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Advanced Plant Performance Benchmarking Framework</p>
                     <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Quality services at affordable prices</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Immediate 24/ 7 emergency services</p>
-                    <div class="bg-primary d-flex align-items-center p-4 mt-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
-                        </div>
-                        <div class="ms-3">
-                            <p class="fs-5 fw-medium mb-2 text-white">Emergency 24/7</p>
-                            <h3 class="m-0 text-secondary">+012 345 6789</h3>
-                        </div>
-                    </div>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Immediate 24/7 emergency services</p>
                 </div>
                 <div class="col-lg-6 pt-4" style="min-height: 500px;">
                     <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="">
-                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/about-2.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about_1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="">
+                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/about_2.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -196,122 +144,110 @@
     </div>
     <!-- About End -->
 
-
-    <!-- Fact Start -->
-    <div class="container-fluid fact bg-dark my-5 py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <i class="fa fa-check fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
-                    <p class="text-white mb-0">Years Experience</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                    <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
-                    <p class="text-white mb-0">Expert Technicians</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <i class="fa fa-users fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
-                    <p class="text-white mb-0">Satisfied Clients</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <i class="fa fa-wrench fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
-                    <p class="text-white mb-0">Compleate Projects</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fact End -->
-
-
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <!-- Assessment Framework & Radar Chart Section Start -->
+    <div class="container-xxl py-5 bg-light">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">Our Technicians</h6>
-                <h1 class="mb-5">Our Expert Technicians</h1>
+                <h6 class="text-secondary text-uppercase">Benchmark Architecture</h6>
+                <h1 class="mb-5">Integrated Assessment Framework & Performance Radar</h1>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <div class="team-text">
-                            <div class="bg-light">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+            <div class="row g-5 align-items-center">
+                <!-- Left: Assessment Framework Modules (Separated completely from 0 to 7) -->
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.3s">
+                    <h3 class="mb-4">Comprehensive Assessment Modules</h3>
+                    <p class="mb-4">Our benchmarking framework integrates multi-dimensional data inputs across specialized operational modules to accurately diagnose performance gaps and unlock recoverable value:</p>
+                    
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="bg-white p-3 border-start border-primary border-4 shadow-sm h-100">
+                                <h5 class="text-primary mb-1"><i class="fa fa-cogs me-2"></i>0. Screener</h5>
+                                <p class="small text-muted mb-0">15-minute quick qualification set for initial plant screening.</p>
                             </div>
-                            <div class="bg-primary">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-white p-3 border-start border-primary border-4 shadow-sm h-100">
+                                <h5 class="text-primary mb-1"><i class="fa fa-industry me-2"></i>1. Plant Profile</h5>
+                                <p class="small text-muted mb-0">Configuration, technology, cooling, and steam conditions.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-white p-3 border-start border-primary border-4 shadow-sm h-100">
+                                <h5 class="text-primary mb-1"><i class="fa fa-fire me-2"></i>2A. Fuel Properties</h5>
+                                <p class="small text-muted mb-0">Fuel chemistry, moisture, LHV, ash behavior, and pricing.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-white p-3 border-start border-primary border-4 shadow-sm h-100">
+                                <h5 class="text-primary mb-1"><i class="fa fa-truck me-2"></i>2B. Fuel Supply Chain</h5>
+                                <p class="small text-muted mb-0">Measurement practices, supplier exposure, and risk management.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-white p-3 border-start border-primary border-4 shadow-sm h-100">
+                                <h5 class="text-primary mb-1"><i class="fa fa-chart-line me-2"></i>3. Monthly Data</h5>
+                                <p class="small text-muted mb-0">12 consecutive months of core operational raw counters.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-white p-3 border-start border-primary border-4 shadow-sm h-100">
+                                <h5 class="text-primary mb-1"><i class="fa fa-tools me-2"></i>4. Outages & Reliability</h5>
+                                <p class="small text-muted mb-0">Outage breakdown by cause, planned/forced hours, and events.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-white p-3 border-start border-primary border-4 shadow-sm h-100">
+                                <h5 class="text-primary mb-1"><i class="fa fa-wallet me-2"></i>5. Financial</h5>
+                                <p class="small text-muted mb-0">Operating costs, maintenance budgets, tariffs, and FX rates.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="bg-white p-3 border-start border-primary border-4 shadow-sm h-100">
+                                <h5 class="text-primary mb-1"><i class="fa fa-leaf me-2"></i>6. ESG</h5>
+                                <p class="small text-muted mb-0">Emissions, ash disposal, water intensity, and safety.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="bg-white p-3 border-start border-primary border-4 shadow-sm h-100">
+                                <h5 class="text-primary mb-1"><i class="fa fa-users me-2"></i>7. Personnel</h5>
+                                <p class="small text-muted mb-0">Labor productivity by function, in-house FTE, contractor hours, and overtime analysis.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+
+                <!-- Right: Performance Radar Chart -->
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white p-4 rounded shadow-sm text-center">
+                        <h4 class="mb-3 text-dark">Performance Radar Summary</h4>
+                        <p class="text-muted small mb-4">Multi-axis evaluation score (0 = Poor, 50 = Typical, 100 = Best Practice)</p>
+                        <!-- Chart.js Canvas for Radar Chart -->
+                        <div style="position: relative; height:320px; width:100%;">
+                            <canvas id="performanceRadarChart"></canvas>
                         </div>
-                        <div class="team-text">
-                            <div class="bg-light">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                            <div class="bg-primary">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <div class="team-text">
-                            <div class="bg-light">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                            <div class="bg-primary">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <div class="team-text">
-                            <div class="bg-light">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                            <div class="bg-primary">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
+                        <div class="mt-3 text-start small text-muted">
+                            <span class="badge bg-primary me-1">■</span> Plant Score vs. Typical (50) & Best Practice (100)
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Call to Action Section Start -->
+            <div class="row mt-5">
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="p-4 bg-white rounded shadow-sm border-top border-primary border-5">
+                        <h3 class="mb-3 text-dark">Start Your Power Plant Assessment Today</h3>
+                        <p class="text-muted mb-4">Experience in-depth performance analysis, identify operational gaps, and elevate your biomass power plant efficiency to international standards.</p>
+                        <a href="assessment_sheet0.html" class="btn btn-primary py-3 px-5 fw-bold rounded-pill shadow transition-hover">
+                            <i class="fa fa-arrow-right me-2"></i> Start Assessment
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Call to Action Section End -->
+
         </div>
     </div>
-    <!-- Team End -->
-        
+    <!-- Assessment Framework & Radar Chart Section End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -319,9 +255,9 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>85/1 Moo.3, Bangkayang, Muang, Pathumthani, Thailand</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+66 85 519 1959</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>plainc.official@gmail.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -338,19 +274,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Drain Cleaning</a>
-                    <a class="btn btn-link" href="">Sewer Line</a>
-                    <a class="btn btn-link" href="">Water Heating</a>
-                    <a class="btn btn-link" href="">Toilet Cleaning</a>
-                    <a class="btn btn-link" href="">Broken Pipe</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+                    <a class="btn btn-link" href="">Data Preparation</a>
+                    <a class="btn btn-link" href="">Plant Assessment</a>
+                    <a class="btn btn-link" href="">Efficiency Improvement</a>
+                    <a class="btn btn-link" href="">Cost Analysis</a>
                 </div>
             </div>
         </div>
@@ -358,11 +285,10 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">beacon</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">PLAI Inc.</a>
                     </div>
                 </div>
             </div>
@@ -370,14 +296,15 @@
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Include Chart.js for Radar Chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
@@ -389,6 +316,62 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Radar Chart Initialization Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const ctx = document.getElementById('performanceRadarChart').getContext('2d');
+            const performanceRadarChart = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: [
+                        'Thermal Efficiency', 
+                        'Availability & Reliability', 
+                        'Maintenance & O&M Cost', 
+                        'Fuel Supply Security', 
+                        'Ash & Circular Economy', 
+                        'Environment', 
+                        'People & Safety'
+                    ],
+                    datasets: [{
+                        label: 'Plant Score',
+                        data: [65, 70, 55, 60, 50, 75, 80],
+                        backgroundColor: 'rgba(13, 110, 253, 0.2)',
+                        borderColor: '#0d6efd',
+                        pointBackgroundColor: '#0d6efd',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: '#0d6efd'
+                    }, {
+                        label: 'Typical Plant (50)',
+                        data: [50, 50, 50, 50, 50, 50, 50],
+                        backgroundColor: 'rgba(108, 117, 125, 0.05)',
+                        borderColor: '#6c757d',
+                        borderDash: [5, 5],
+                        pointRadius: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        r: {
+                            angleLines: {
+                                display: true
+                            },
+                            suggestedMin: 0,
+                            suggestedMax: 100
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
